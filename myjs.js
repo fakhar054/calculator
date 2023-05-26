@@ -19,6 +19,8 @@ Array.from(buttons).forEach((button)=>{
         mystring = mystring + e.target.innerHTML;
         document.querySelector('input').value = mystring;
         console.log(mystring);
+        console.log(mystring);
+
         }
     })
 
